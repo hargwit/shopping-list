@@ -1,0 +1,34 @@
+{
+  "name": "shopping-list-api",
+  "version": "1.0.0",
+  "description": "The API for the shopping-list application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hargwit/shopping-list.git"
+  },
+  "keywords": [
+    "MERN",
+    "Mongo",
+    "React",
+    "Node",
+    "Express"
+  ],
+  "author": "Harry G Withers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hargwit/shopping-list/issues"
+  },
+  "homepage": "https://github.com/hargwit/shopping-list#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
