@@ -2,10 +2,10 @@
   "name": "shopping-list-api",
   "version": "1.0.0",
   "description": "The API for the shopping-list application.",
-  "main": "index.ts",
+  "main": "src/app.ts",
   "scripts": {
-    "start": "node index.ts",
-    "dev": "nodemon index.ts",
+    "start": "node src/app.ts",
+    "dev": "nodemon",
     "build": "tsc --project ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,12 +27,20 @@
   },
   "homepage": "https://github.com/hargwit/shopping-list#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "@types/express": "^4.17.8",
+    "@types/lodash": "^4.14.161",
     "@types/node": "^14.11.2",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   }

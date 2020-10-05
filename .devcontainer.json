@@ -1,15 +1,14 @@
-
 {
   "name": "shopping-list",
   "image": "node:lts-buster",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
+  "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
   "forwardPorts": [3000, 3001, 3002],
   "remoteUser": "node",
   "containerEnv": {
     "NODE_ENV": "development",
     "CHOKIDAR_USEPOLLING": "1"
-  },
-  "postCreateCommand": "npm install"
+  }
 }
